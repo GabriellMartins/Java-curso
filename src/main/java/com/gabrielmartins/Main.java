@@ -1,27 +1,50 @@
 package com.gabrielmartins;
 
 
+import java.util.Locale;
+
 public class Main {
 
     public static void main(String[] args ) {
 
-        int idade;
-        double salario, altura;
-        char genero;
-        String nome;
+         //INICANDO VARIAVEIS
 
-        idade = 30;
-        salario = 300;
-        altura = 1.90;
-        genero = 'F';
-        nome = "Gabriel Martins Da Silva";
+        Locale.setDefault(Locale.forLanguageTag("pt-BR"));
+
+        int idade = 17;
+        double salario = 300.00000000000000, altura = 1.90;
+        char genero = 'f';
+        String nome = "MushMC spop wg da silva";
+
 
         System.out.println("IDADE =  " + idade);
-        System.out.println("SALARIO =  " + salario);
+        System.out.println("SALARIO =  " + String.format("%.1f",  salario));
         System.out.println("GENERO =  " + genero);
         System.out.println("NOME =  " + nome);
-        System.out.println("ALTURA =  " + altura);
+        System.out.println("ALTURA =  " + String.format("%.1f",  altura));
 
 
-       }
+
+
+        System.out.println("=================SAIDA DE DADOS===================");
+
+        //SAIDA DE DADOS
+        int x = 10, y = 20;
+
+        System.out.println(x);
+        System.out.println(y);
+
+        System.out.println("===================USANDO DOUBLE===================");
+
+        //USANDO DOUBLE
+
+        double z = 1346.000;
+
+        System.out.println(String.format("%.2f", z));
+
+        System.out.println("===============================================");
+
     }
+
+
+}
