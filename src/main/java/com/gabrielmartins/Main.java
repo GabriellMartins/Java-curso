@@ -26,13 +26,7 @@ public class Main {
 
 
 
-        System.out.println("=================SAIDA DE DADOS===================");
 
-        //SAIDA DE DADOS
-        int x = 10, y = 20;
-
-        System.out.println(x);
-        System.out.println(y);
 
         System.out.println("===================USANDO DOUBLE===================");
 
@@ -42,7 +36,7 @@ public class Main {
 
         System.out.println(String.format("%.2f", z));
 
-        System.out.println("===============================================");
+        System.out.println("===================USANDO DOUBLE===================");
 
     }
 
